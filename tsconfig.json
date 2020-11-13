@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "inlineSourceMap": true,
+        "declaration": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "typeRoots": ["./src/types", "./node_modules/@types"],
+        "paths": {},
+        "emitDeclarationOnly": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules/*"]
+
+}

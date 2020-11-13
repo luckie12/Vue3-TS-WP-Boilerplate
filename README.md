@@ -1,1 +1,3 @@
-Vue3 TS WP Boilerplate
+# To start
+
+`yarn dev`
